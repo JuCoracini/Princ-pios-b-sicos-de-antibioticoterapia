@@ -1,0 +1,55 @@
+{
+  "title": "Princípios Básicos de Antibioticoterapia",
+  "chapters": [
+    {
+      "id": "capitulo-01",
+      "title": "Capítulo 1 — (defina o título)",
+      "pages": 10
+    },
+    {
+      "id": "capitulo-02",
+      "title": "Capítulo 2 — (defina o título)",
+      "pages": 10
+    },
+    {
+      "id": "capitulo-03",
+      "title": "Capítulo 3 — (defina o título)",
+      "pages": 10
+    },
+    {
+      "id": "capitulo-04",
+      "title": "Capítulo 4 — (defina o título)",
+      "pages": 10
+    },
+    {
+      "id": "capitulo-05",
+      "title": "Capítulo 5 — (defina o título)",
+      "pages": 10
+    },
+    {
+      "id": "capitulo-06",
+      "title": "Capítulo 6 — (defina o título)",
+      "pages": 10
+    },
+    {
+      "id": "capitulo-07",
+      "title": "Capítulo 7 — (defina o título)",
+      "pages": 10
+    },
+    {
+      "id": "capitulo-08",
+      "title": "Capítulo 8 — (defina o título)",
+      "pages": 10
+    },
+    {
+      "id": "capitulo-09",
+      "title": "Capítulo 9 — (defina o título)",
+      "pages": 10
+    },
+    {
+      "id": "referencias",
+      "title": "Referências",
+      "pages": 1
+    }
+  ]
+}
