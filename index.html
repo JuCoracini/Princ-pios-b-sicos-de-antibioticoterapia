@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b2a3a" />
+  <title>Princípios Básicos de Antibioticoterapia</title>
+
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Source+Sans+3:wght@350;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#reader">Pular para o conteúdo</a>
+
+  <header class="topbar" role="banner">
+    <div class="topbar__left">
+      <button class="icon-btn" id="btnToc" aria-label="Abrir sumário" title="Sumário">☰</button>
+      <div class="brand">
+        <div class="brand__title">Princípios Básicos de Antibioticoterapia</div>
+        <div class="brand__meta" id="pageMeta">Carregando…</div>
+      </div>
+    </div>
+
+    <div class="topbar__right">
+      <button class="pill" id="btnTheme" type="button" aria-label="Alternar tema">Tema</button>
+      <button class="pill" id="btnFont" type="button" aria-label="Ajustar tamanho de fonte">Fonte</button>
+    </div>
+  </header>
+
+  <main class="shell" role="main">
+    <aside class="drawer" id="tocDrawer" aria-label="Sumário" aria-hidden="true">
+      <div class="drawer__header">
+        <div class="drawer__title">Sumário</div>
+        <button class="icon-btn" id="btnCloseToc" aria-label="Fechar sumário">✕</button>
+      </div>
+      <nav class="drawer__body" id="tocNav"></nav>
+    </aside>
+
+    <section class="page" aria-label="Página de leitura">
+      <article class="paper" id="reader" tabindex="-1" aria-live="polite"></article>
+
+      <footer class="pager" aria-label="Navegação">
+        <button class="nav-btn" id="btnPrev" type="button">← Anterior</button>
+        <div class="pager__center">
+          <span id="progressText">0%</span>
+        </div>
+        <button class="nav-btn" id="btnNext" type="button">Próximo →</button>
+      </footer>
+    </section>
+  </main>
+
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal__backdrop" data-close="1"></div>
+    <div class="modal__panel" role="document">
+      <button class="modal__close" id="modalClose" aria-label="Fechar">✕</button>
+      <div class="modal__content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

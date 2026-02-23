@@ -1,0 +1,9 @@
+{
+  "name": "Princípios Básicos de Antibioticoterapia",
+  "short_name": "Antibioticoterapia",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f5f2",
+  "theme_color": "#0b2a3a",
+  "icons": []
+}
